@@ -42,6 +42,7 @@ pipeline {
           steps {
             // sh 'sh release/push-docker-images-scenario2.0.sh ${ACR_LOGINSERVER}'
             echo "Push Image s1.1"
+            echo "Push Image s1.1"
           }
         }
       }
