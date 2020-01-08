@@ -1,6 +1,7 @@
 
 pipeline {
   agent any
+  options { skipDefaultCheckout() }
   stages {
     stage('Build Image s1.0') {
       parallel {
